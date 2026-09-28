@@ -1,0 +1,10 @@
+node_modules/
+dist/
+output/
+.playwright-cli/
+*.tsbuildinfo
+*.local
+.env
+.env.*
+!.env.example
+breadcrumb-backup-*.json

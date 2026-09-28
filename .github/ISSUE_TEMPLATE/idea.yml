@@ -1,0 +1,13 @@
+name: An idea or usability suggestion
+description: Share what would make Breadcrumb easier or kinder to use.
+body:
+  - type: markdown
+    attributes:
+      value: "Ideas, accessibility feedback, and plain-language suggestions are welcome. This is public: please use fictional examples and leave out personal medical details."
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: You don't need to propose a technical solution.
+    validations:
+      required: true

@@ -1,0 +1,23 @@
+name: Something isn't working
+description: Report a problem using fictional examples only.
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for helping make Breadcrumb better. Issues are public. Please do not include journal backups, medical photos, personal health details, or identifying information. For security issues, use Security → Report a vulnerability."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we reproduce it?
+      description: A fictional example is plenty. No real health records needed.
+  - type: input
+    id: browser
+    attributes:
+      label: Device and browser
+      placeholder: Android / Chrome, Windows / Edge, etc.
