@@ -4,9 +4,17 @@
 
 Share a public early preview and the MIT-licensed source. Serve the existing static app at a stable HTTPS origin. Journals, photos, and annotations continue to live in each visitor's browser; no health-data backend, accounts, or synchronization is part of this release.
 
-This is a proposed release plan, not confirmation of publication. As of this review, the local repository has no configured remote or public deployment.
+Published as an early community preview on 2026-09-28:
 
-## Release work, in order
+- App: https://bonitadreama.github.io/breadcrumb/
+- Source: https://github.com/bonitadreama/breadcrumb
+- Successful workflow: https://github.com/bonitadreama/breadcrumb/actions/runs/36449459914
+
+The source, welcome notice, guide, issue forms, credits, and private vulnerability reporting are in place. Live Chromium checks verified saving/reopening, a photo, Look Back, offline reopen, backup download, and fresh-browser restoration. All 41 tests passed locally and on GitHub. Only static app requests were observed, with no console errors.
+
+Still to do before a broad announcement: the creator's real Android Chrome test, particularly photo orientation, finger drawing, and backup download/restore. Other physical devices and browsers remain unverified. The public link is available for this testing.
+
+## Release checklist
 
 1. Choose the public repository owner/name and stable website address. Configure a private security-reporting route. Keep fictional test outputs, backups, personal attachments, and local tooling out of the release.
 2. Make the first visit explain local browser storage, private backups, and the absence of account-based recovery. Clearly disclose that saved photos removed from entries remain in history/backups, and permanent erasure within the app is not yet available. Distinguish host access logs from health records, which the app does not upload.
@@ -30,8 +38,8 @@ This is an early preview, built from my experience with chronic illness, convers
 
 It's okay to be sick. You don't have to log perfectly.
 
-[Insert verified app link]
-[Insert verified source link]
+Try it: https://bonitadreama.github.io/breadcrumb/
+Source: https://github.com/bonitadreama/breadcrumb
 
 ## Later
 

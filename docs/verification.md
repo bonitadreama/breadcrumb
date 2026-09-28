@@ -57,3 +57,10 @@ Not yet tested on physical iOS/Android devices, Safari, Firefox, or with a scree
 Chromium production-preview verification in isolated fictional sessions: attached PNG, captioned it, drew/undid freehand, drew an arrow and oval, toggled the original, saved and reloaded. Opened it from Timeline and Look Back, zoomed, and inspected the viewer at 390 × 844. Edited marks at phone viewport size; removed the attachment and opened both prior versions from history. Downloaded a backup and verified its decoded image equals the input file byte-for-byte with both saved overlays. Restored through the UI in a fresh browser session and opened the recovered photo with two annotations. JPEG and WebP selection also succeeded; SVG and animated PNG were rejected without saving. Browser console reported no errors or warnings. Physical touch/stylus and iOS photo orientation are not yet verified.
 
 Evidence: ignored `output/playwright/photo-annotation-desktop.png`, `photo-viewer-mobile.png`, `photo-restored-desktop.png`, and `photos-backup.json`. All use a synthetic illustration, not personal medical imagery.
+
+
+## Public early-preview release (2026-09-28)
+
+GitHub Pages deployment of commit `6764eab1d06340750bca9461a36f44ca2348f11f` completed successfully at https://bonitadreama.github.io/breadcrumb/. CI passed all 41 tests and built the Pages-specific asset paths. Added PNG home-screen icons, a dismissible local-storage notice, formal ChatGPT / OpenAI Codex powered by Astra credits, community issue forms, and a getting-started guide. Private vulnerability reporting is enabled.
+
+Isolated live-site Chromium checks: fictional note/photo saved and reopened; welcome dismissal persisted; About credits inspected at 390 x 844; offline reopen worked; a JSON backup downloaded and restored into a separate fresh browser session; the restored photo opened from Look Back. Network inspection showed static app GET requests only, with no console errors or warnings. HTTPS and HSTS were observed. No personal records or local test artifacts were published. Physical Android Chrome testing remains with the creator.
